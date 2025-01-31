@@ -16,7 +16,7 @@ import card1 from './Images/ash2-removebg-preview.png'
 export default function Nav() {
   return (
     <>
-      <div className='lg:text-4xl  text-white  bg-red-500 font-semibold
+      <div className='lg:text-4xl  text-yellow-300  bg-red-500 font-semibold
       md:text-2xl  font-mono
         text-xl   text-center  '
       >Shravan Singh Society  </div>
@@ -76,12 +76,12 @@ export default function Nav() {
 
 
       <div
-        class="text-center font-mono  md:p-3  lg:m-5 rounded-md  lg:mr-72   bg-red-500 lg:ml-72 lg:text-4xl text-white    lg:p-4  font-bold text-2xl">
+        class="text-center font-mono  md:p-3  lg:m-5 rounded-md  lg:mr-72   bg-red-500 lg:ml-72 lg:text-4xl text-yellow-300    lg:p-4  font-bold text-2xl">
         OUR MEMBERS
       </div>
 
 
-      <div class="max-w-full   mt-5 mb-5 p-6  rounded-lg  bg-red-300 overflow-x-auto">
+      <div class="max-w-full   mt-5 mb-5 p-6  rounded-lg   overflow-x-auto">
         <div class="flex flex-nowrap space-x-4  scrollbar-hide">
           {/* <!-- Card 1 --> */}
           <div class="   lg:h-80  lg:w-72  flex-shrink-0 bg-white rounded-lg shadow-md p-4 
@@ -158,12 +158,12 @@ export default function Nav() {
       {/* abdul kalamkm section  */}
 
       <div
-        class="  flex flex-col p-4 mt-3 lg:flex lg:m-10  bg-gradient-to-r from-red-600 via-blue-300 to-white-300  lg:rounded-3xl text-white
+        class="  flex flex-col p-4 mt-3 lg:flex lg:m-10  bg-red-500 to-white-300  lg:rounded-3xl text-white
         md:flex md:flex-row 
         rounded-lg  lg:p-5  lg:flex-row     ">
 
         <div>
-          <h3 class="   lg:text-[60px] text-[40px] text-center  font-mono    md:mt-0   mt-52  ">
+          <h3 class="   text-yellow-300 lg:text-[60px] text-[40px] text-center  font-mono    md:mt-0   mt-52  ">
             A.P.J. Abdul Kalam   </h3>
 
           <p className='md:text-center md:text-[35px]  md:mt-10
@@ -189,7 +189,7 @@ export default function Nav() {
       {/* section is registere here */}
 
       <div class="container mx-auto mt-3  bg-slate-300   max-w-screen-xl p-8 text-center ">
-        <h2 class="  lg:text-4xl  text-3xl font-bold mb-8 text-white bg-red-500 rounded-lg p-4">Upskill with community
+        <h2 class="  lg:text-4xl  text-3xl font-bold mb-8 text-yellow-300  bg-red-500 rounded-lg p-4">Upskill with community
           resources</h2>
 
         <div class="lg:flex md:flex  lg:justify-around  ">
@@ -224,10 +224,10 @@ export default function Nav() {
 
 
               <div
-                class="relative  lg:h-[140px]  lg:w-[210px] h-[136px] w-[136px] rounded bg-gradient-to-r to-blue-300 from-red-500 via-blue-500  ">
+                class="relative  lg:h-[140px]  lg:w-[210px] h-[136px] w-[136px] rounded bg-red-500 ">
 
                 <div
-                  class="absolute  text-red-500  mt-1 ml-1 lg:h-[130px]  lg:w-[200px] h-[128px]   w-[128px] p-2 bg-white     rounded     ">
+                  class="absolute  text-yellow-900  mt-1 ml-1 lg:h-[130px]  lg:w-[200px] h-[128px]   w-[128px] p-2 bg-white     rounded     ">
                   <i class="fa-solid  fa-book-open-reader p-4  fa-beat" ></i>
                   <p class="text-xl font-bold">OUR 60+</p>
                   <p>Students</p>
@@ -236,10 +236,10 @@ export default function Nav() {
               </div>
 
               <div
-                class="relative   lg:h-[140px]  lg:w-[210px] h-[136px] w-[136px] rounded  bg-gradient-to-r to-blue-300 from-red-500 via-blue-500  ">
+                class="relative   lg:h-[140px]  lg:w-[210px] h-[136px] w-[136px] rounded  bg-red-500  ">
 
                 <div
-                  class="absolute text-red-500 lg:h-[130px]  lg:w-[200px]  mt-1 ml-1  h-[128px]   w-[128px] p-2 bg-white     rounded     ">
+                  class="absolute text-yellow-900  lg:h-[130px]  lg:w-[200px]  mt-1 ml-1  h-[128px]   w-[128px] p-2 bg-white     rounded     ">
                   <i class="fa-solid  fa-book-open-reader p-4  fa-beat" ></i>
                   <p class="text-xl font-bold">OUR 60+</p>
                   <p>Students</p>
@@ -248,7 +248,7 @@ export default function Nav() {
               </div>
 
               <div
-                class="relative   lg:h-[140px]  lg:w-[210px] h-[136px] w-[136px] rounded  bg-gradient-to-r to-blue-300 from-red-500 via-blue-500
+                class="relative   lg:h-[140px]  lg:w-[210px] h-[136px] w-[136px] rounded  bg-red-500
                 lg:ml-0  md:ml-0 
                 ml-28
 
@@ -256,7 +256,7 @@ export default function Nav() {
                  ">
 
                 <div
-                  class="absolute text-red-500  lg:h-[130px]  lg:w-[200px]  mt-1 ml-1  h-[128px]   w-[128px] p-2 bg-white     rounded     ">
+                  class="absolute text-yellow-900   lg:h-[130px]  lg:w-[200px]  mt-1 ml-1  h-[128px]   w-[128px] p-2 bg-white     rounded     ">
                   <i class="fa-solid  fa-book-open-reader p-4  fa-beat"></i>
                   <p class="text-xl font-bold">OUR 60+</p>
                   <p>Students</p>
@@ -274,7 +274,7 @@ export default function Nav() {
 
       {/* not nav barr */}
 
-      <div class="flex p-2 mt-5   text-sm lg:text-xl md:text-base font-mono  gap-6 rounded-md bg-gradient-to-r from-red-500 via-blue-400 justify-around list-none lg:p-5 ">
+      <div class="flex p-2 mt-5   text-sm lg:text-xl md:text-base font-mono  gap-6 rounded-md bg-gradient-to-r from-red-500 via-yellow-400 justify-around list-none lg:p-5 ">
         <li className='hidden md:flex  lg:flex ' >I TO X</li>
         <li>X TO XII</li>
         <li>Competitive Exam </li>
@@ -332,12 +332,9 @@ export default function Nav() {
 
         <div >
 
-
           <li> BBA </li>
           <li>BCA </li>
           <li> B.COM</li>
-
-
 
         </div>
 
@@ -383,7 +380,7 @@ export default function Nav() {
 
       {/* new navbar section  */}
 
-      <div class="flex justify-around mt-4 p-2 text-sm  lg:text-xl  md:text-base  lg:p-5 bg-red-500 ">
+      <div class="flex justify-around mt-4 p-2 text-sm  lg:text-xl  md:text-base text-yellow-200  lg:p-5 bg-red-500 ">
         <div>
           Why choose us
         </div>
@@ -501,14 +498,6 @@ export default function Nav() {
           OUR LOCATION
         </h2>
       </div>
-
-
-
-
-
-
-
-
 
 
 
