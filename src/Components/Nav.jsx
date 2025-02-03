@@ -2,8 +2,10 @@ import React from 'react'
 import Logo1 from '../Components/Images/grandfather-removebg-preview.png'
 import Logo2 from './Images/IMG-20241230-WA0005-removebg-preview.png'
 import Logo3 from './Images/IMG-20241230-WA0003-removebg-preview.png'
+import childLabour from '../Components/Images/india-child-labour.jpg'
 import qrcode from './Images/qrcode.png'
-import Abdulkalam from './Images/new_abdul_kalam-removebg-preview.png'
+// import Abdulkalam from './Images/new_abdul_kalam-removebg-preview.png'
+import studyGirl from '../Components/Images/girld_study-removebg-preview.png'
 import boy from './Images/cartoon-little-boy-studying-on-the-table-free-vector-removebg-preview.png'
 import teacher from './Images/teacher2-removebg-preview.png'
 import sibling from './Images/sibling-removebg-preview.png'
@@ -16,12 +18,12 @@ import card1 from './Images/ash2-removebg-preview.png'
 export default function Nav() {
   return (
     <>
-      <div className='lg:text-4xl  text-yellow-300  bg-red-500 font-semibold
+      <div className='lg:text-4xl  text-yellow-300  bg-red-600 font-semibold
       md:text-2xl  font-mono
         text-xl   text-center  '
       >Shravan Singh Society  </div>
 
-      <div className='flex justify-between   lg:center  bg-red-500 ' >
+      <div className='flex justify-between   lg:center  bg-red-600 ' >
         <img className='h-20 w-18  md:h-28 md:w-28  lg:h-32 lg:w-32  bg-white rounded-full ' src={Logo1} alt="logo" />
         <img className=' h-20  lg:h-36 md:h-24  ' src={Logo2} alt=" logo2" />
         <img className='h-20 w-18  md:h-28 md:w-28  lg:h-32 lg:w-32  bg-white rounded-full' src={Logo3} alt="logo3" />
@@ -29,7 +31,7 @@ export default function Nav() {
       </div>
 
       <div>
-        <ul className=' flex lg:p-2  lg:gap-64 font-mono  justify-center bg-red-500 text-white font-semibold
+        <ul className=' flex lg:p-2  lg:gap-64 font-mono  justify-center bg-red-600 text-white font-semibold
         md:gap-40  md:p-1
         gap-24  p-1
         
@@ -64,7 +66,7 @@ export default function Nav() {
               unlocking potential and providing the foundation for a more just and equitable world.
             </p>
           </div>
-          <img  className=' lg:h-80 lg:w-80 lg:flex 
+          <img className=' lg:h-80 lg:w-80 lg:flex 
              md:hidden   ml-20
           ' src={qrcode} alt="qrcode sharavan " />
 
@@ -72,11 +74,20 @@ export default function Nav() {
 
       </div>
 
+      {/*  chicld labour imaage  */}
+
+      <div className='' >
+        <img className='absolute    lg:h-[500px] lg:w-full  w-full h-[250px]  md:h-[400px] md:w-full ' src={childLabour} alt="" />
+
+        <p className=' relative font-semibold lg:p-28 md:p-16 p-4 font-mono md:text-[100px] md:font-semibold text-6xl text-yellow-500    '>They Are Reason For Our Society</p>
+
+      </div>
+
       {/* our member code  */}
 
 
       <div
-        class="text-center font-mono  md:p-3  lg:m-5 rounded-md  lg:mr-72   bg-red-500 lg:ml-72 lg:text-4xl text-yellow-300    lg:p-4  font-bold text-2xl">
+        class="text-center font-mono  lg:mt-20 md:mt-2 mt-10 md:p-3  lg:m-5 rounded-md  lg:mr-72   bg-red-500 lg:ml-72 lg:text-4xl text-yellow-300    lg:p-4  font-bold text-2xl">
         OUR MEMBERS
       </div>
 
@@ -88,7 +99,7 @@ export default function Nav() {
                          md:h-72
                          h-72  w-60
                          ">
-            <img  className ="w-full  h-40 lg:h-2/3 object-cover rounded-md" src={card1} alt='' />
+            <img className="w-full  h-40 lg:h-2/3 object-cover rounded-md" src={card1} alt='' />
             <h3 class="text-lg font-semibold mt-2">Ashok Taya & CO-Founder</h3>
             <p class="text-sm text-gray-600 mt-1">B.Pharmacy, M.Pharmacy P.hd Experience - 6 years</p>
           </div>
@@ -98,7 +109,7 @@ export default function Nav() {
                          md:h-72
                          h-72  w-60
                          ">
-            <img  className ="w-full  h-40 lg:h-2/3 object-cover rounded-md" src={card1} alt='' />
+            <img className="w-full  h-40 lg:h-2/3 object-cover rounded-md" src={card1} alt='' />
             <h3 class="text-lg font-semibold mt-2">Person 2</h3>
             <p class="text-sm text-gray-600 mt-1">B.Pharmacy, MBA
               Experience - 8 years</p>
@@ -109,7 +120,7 @@ export default function Nav() {
                          md:h-72
                          h-72  w-60
                          ">
-            <img  className ="w-full  h-40 lg:h-2/3 object-cover rounded-md" src={card1} alt='' />
+            <img className="w-full  h-40 lg:h-2/3 object-cover rounded-md" src={card1} alt='' />
             <h3 class="text-lg font-semibold mt-2">Person 3</h3>
             <p class="text-sm text-gray-600 mt-1">PhD in Biotech
               Experience - 10 years</p>
@@ -120,7 +131,7 @@ export default function Nav() {
                          md:h-72
                          h-62  w-60
                          ">
-            <img  className ="w-full  h-40 lg:h-2/3 object-cover rounded-md" src={card1} alt='' />
+            <img className="w-full  h-40 lg:h-2/3 object-cover rounded-md" src={card1} alt='' />
             <h3 class="text-lg font-semibold mt-2">Person 4</h3>
             <p class="text-sm text-gray-600 mt-1">MSc Chemistry
               Experience - 5 years</p>
@@ -131,7 +142,7 @@ export default function Nav() {
                          md:h-72
                          h-72  w-60
                          ">
-            <img  className ="w-full  h-40 lg:h-2/3 object-cover rounded-md" src={card1} alt='' />
+            <img className="w-full  h-40 lg:h-2/3 object-cover rounded-md" src={card1} alt='' />
             <h3 class="text-lg font-semibold mt-2">Person 5</h3>
             <p class="text-sm text-gray-600 mt-1">Data Scientist
               Experience - 7 years</p>
@@ -141,7 +152,7 @@ export default function Nav() {
 
       {/* nav bar section  */}
       <div
-        class="  bg-red-500  rounded-md  text-white list-none  lg:text-xl     lg:gap-10     lg:p-3 
+        class="  bg-red-600  rounded-md  text-white list-none  lg:text-xl     lg:gap-10     lg:p-3 
         md:text-base    md:gap-12  md:p-5
         flex   text-sm  p-1 gap-5  font-mono font-semibold  ">
 
@@ -156,7 +167,7 @@ export default function Nav() {
 
 
       {/* abdul kalamkm section  */}
-
+      {/* 
       <div
         class="  flex flex-col p-4 mt-3 lg:flex lg:m-10  bg-slate-300 to-white-300  lg:rounded-3xl text-white
         md:flex md:flex-row 
@@ -183,10 +194,18 @@ export default function Nav() {
             lg:w-[500px]"
             src={Abdulkalam} alt="abdul kalam " />
         </div>
-      </div>
+      </div> */}
 
 
       {/* section is registere here */}
+
+
+    
+    {/* study girl image  */}
+
+<div>
+  <img className='lg:w-full lg:h-[450px] md:w-full md:h-[350px] ' src={studyGirl} alt="" />
+</div>
 
       <div class="container mx-auto mt-3  bg-slate-300   max-w-screen-xl p-8 text-center ">
         <h2 class="  lg:text-4xl  text-3xl font-bold mb-8 text-yellow-300  bg-red-500 rounded-lg p-4">Upskill with community
@@ -241,8 +260,8 @@ export default function Nav() {
                 <div
                   class="absolute text-yellow-900  lg:h-[130px]  lg:w-[200px]  mt-1 ml-1  h-[128px]   w-[128px] p-2 bg-white     rounded     ">
                   <i class="fa-solid  fa-book-open-reader p-4  fa-beat" ></i>
-                  <p class="text-xl font-bold">OUR 60+</p>
-                  <p>Students</p>
+                  <p class="text-xl font-bold">OUR 6+</p>
+                  <p>Teachers</p>
                 </div>
 
               </div>
@@ -258,8 +277,8 @@ export default function Nav() {
                 <div
                   class="absolute text-yellow-900   lg:h-[130px]  lg:w-[200px]  mt-1 ml-1  h-[128px]   w-[128px] p-2 bg-white     rounded     ">
                   <i class="fa-solid  fa-book-open-reader p-4  fa-beat"></i>
-                  <p class="text-xl font-bold">OUR 60+</p>
-                  <p>Students</p>
+                  <p class="text-xl font-bold">OUR 10+</p>
+                  <p>Branches </p>
                 </div>
 
               </div>
@@ -357,7 +376,7 @@ export default function Nav() {
 
       <div class="lg:flex md:flex  ">
         <div>
-          <img class=" lg:h-[400px] md:h-[300px]  " src={teacher} alt=" teachers help "/>
+          <img class=" lg:h-[400px] md:h-[300px]  " src={teacher} alt=" teachers help " />
         </div>
         <div class="text-center lg:p-20 md:p-10    ">
 
@@ -488,7 +507,7 @@ export default function Nav() {
 
 
         <div class=" hidden lg:flex md:flex md:mt-20  mt-40 w-72 h-72   ">
-          <img  className='lg:h-96 '  class="" src={sibling} alt=""/>
+          <img className='lg:h-96 ' class="" src={sibling} alt="" />
         </div>
       </div>
 
