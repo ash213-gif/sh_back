@@ -158,16 +158,16 @@ export default function Nav() {
       {/* abdul kalamkm section  */}
 
       <div
-        class="  flex flex-col p-4 mt-3 lg:flex lg:m-10  bg-red-500 to-white-300  lg:rounded-3xl text-white
+        class="  flex flex-col p-4 mt-3 lg:flex lg:m-10  bg-slate-300 to-white-300  lg:rounded-3xl text-white
         md:flex md:flex-row 
         rounded-lg  lg:p-5  lg:flex-row     ">
 
         <div>
-          <h3 class="   text-yellow-300 lg:text-[60px] text-[40px] text-center  font-mono    md:mt-0   mt-52  ">
+          <h3 class="   text-yellow-800 lg:text-[60px] text-[40px] text-center  font-mono    md:mt-0   mt-52  ">
             A.P.J. Abdul Kalam   </h3>
 
           <p className='md:text-center md:text-[35px]  md:mt-10
-              text-center text-black  text-[27px]
+              text-center text-red-800  text-[27px]
               lg:text-[45px] ' >
 
             The best way to
@@ -498,9 +498,6 @@ export default function Nav() {
           OUR LOCATION
         </h2>
       </div>
-
-
-
 
     </>
   )
